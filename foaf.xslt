@@ -13,7 +13,7 @@
     <body>
         <h1>FOAF RDF Visualization</h1>
         <ul>
-            <xsl:for-each select="//foaf:Person">
+            <xsl:for-each select="foaf:Person">
                 <li>
                     <h2><xsl:value-of select="foaf:name"/></h2>
                     <p>Homepage: <a href="{foaf:homepage}" target="_blank"><xsl:value-of select="foaf:homepage"/></a></p>
@@ -24,10 +24,11 @@
         </ul>
         <h2>Connections</h2>
         <ul>
-            <xsl:for-each select="//foaf:knows/foaf:Person">
+            <xsl:for-each select="foaf:knows/foaf:Person">
                 <li>
                     <h3><xsl:value-of select="foaf:name"/></h3>
                     <p>Email: <xsl:value-of select="foaf:mbox_sha1sum"/></p>
+                    <p><a href="{rdfs:seeAlso/@rdf:resource}">Lien vers la homepage</a></p>
                 </li>
             </xsl:for-each>
         </ul>
