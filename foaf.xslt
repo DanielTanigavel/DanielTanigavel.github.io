@@ -3,14 +3,14 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:foaf="https://danieltanigavel.github.io/foaf.rdf">
     
-    <xsl:template match="/">
+    <xsl:template match="rdf:RDF">
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <title>FOAF RDF to XHTML</title>
             </head>
             <body>
                 <h1>FOAF RDF Data</h1>
-                <xsl:apply-templates select="//foaf:Person"/>
+                <xsl:apply-templates select="foaf:Person"/>
             </body>
         </html>
     </xsl:template>
