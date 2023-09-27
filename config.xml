@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ldspider>
+    <startSeeds>
+        <seed>https://danieltanigavel.github.io/foaf.rdf</seed>
+    </startSeeds>
+    <outputDir>D:\Travail\M2\S3\WebSemantique\TPFOAF</outputDir>
+    <!-- Autres paramètres de configuration -->
+    <maxDepth>1</maxDepth>
+    <maxTotalPages>100</maxTotalPages>
+    <maxPagesPerHost>100</maxPagesPerHost>
+
+</ldspider>
