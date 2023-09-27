@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:bio="http://purl.org/vocab/bio/0.1/"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:lang="http://purl.org/net/inkel/rdf/schemas/lang/1.1#"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:doac="http://ramonantonio.net/doac/0.1/"
+    xmlns:menow="http://schema.peoplesdns.com/menow/"
+    xmlns:sioc="http://rdfs.org/sioc/ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:rel="http://purl.org/vocab/relationship/">
+
+<foaf:Person rdf:about="https://danieltanigavel.github.io/foaf.rdf">
+    <foaf:name> Daniel Tanigavel </foaf:name>
+    <foaf:homepage> <index.html> </foaf:homepage>
+    <foaf:currentProject> <https://danieltanigavel.github.io/foaf.rdf> </foaf:currentProject>
+    <foaf:mbox_sha1sum>ffdb20389159f31a6981657a9d9c86497c8c3a06</foaf:mbox_sha1sum>
+    <foaf:seeAlso rdf:resource="https://danieltanigavel.github.io"> 
+</foaf:Person>
+
+<foaf:knows>
+    <foaf:Person rdf:about="https://p0lycarpio.github.io/foaf.rdf">
+        <foaf:name>Arsène Reymond</foaf:name>
+        <foaf:mbox_sha1sum>64d35c94674fda5759a5ac685d20769cda55c0da</foaf:mbox_sha1sum>
+        <rdfs:seeAlso rdf:resource="https://p0lycarpio.github.io/"/>
+    </foaf:Person>
+</foaf:knows>
+
+<foaf:knows>
+        <foaf:Person rdf:about="https://turbomoai.github.io/foaf.rdf">
+            <foaf:name>Fabien Frappier</foaf:name>
+            <foaf:mbox_sha1sum>e19032a883f88e13d936eb7a36547596c724f972</foaf:mbox_sha1sum>
+            <rdfs:seeAlso rdf:resource="https://turbomoai.github.io" />
+        </foaf:Person>
+</foaf:knows>
+
+<foaf:knows>
+        <foaf:Person rdf:about="https://honguez.github.io/foaf.rdf">
+            <foaf:name>Nathan Ruello</foaf:name>
+            <foaf:mbox_sha1sum>4847102e343503ba3c49e320b9e59d0b7026c6fa</foaf:mbox_sha1sum>
+            <rdfs:seeAlso rdf:resource="https://honguez.github.io/"/>
+        </foaf:Person>
+</foaf:knows>
