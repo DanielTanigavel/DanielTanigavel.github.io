@@ -14,11 +14,11 @@
     xmlns:rel="http://purl.org/vocab/relationship/">
 
 <foaf:Person rdf:about="https://danieltanigavel.github.io/foaf.rdf">
-    <foaf:name> Daniel Tanigavel </foaf:name>
-    <foaf:homepage> <index.html> </foaf:homepage>
-    <foaf:currentProject> <https://danieltanigavel.github.io/foaf.rdf> </foaf:currentProject>
+    <foaf:name>Daniel Tanigavel</foaf:name>
+    <foaf:homepage>https://danieltanigavel.github.io</foaf:homepage>
+    <foaf:currentProject>https://danieltanigavel.github.io/foaf.rdf</foaf:currentProject>
     <foaf:mbox_sha1sum>ffdb20389159f31a6981657a9d9c86497c8c3a06</foaf:mbox_sha1sum>
-    <foaf:seeAlso rdf:resource="https://danieltanigavel.github.io"> 
+    <foaf:seeAlso rdf:resource="https://danieltanigavel.github.io"/>
 </foaf:Person>
 
 <foaf:knows>
@@ -44,3 +44,5 @@
             <rdfs:seeAlso rdf:resource="https://honguez.github.io/"/>
         </foaf:Person>
 </foaf:knows>
+
+</rdf:RDF>
